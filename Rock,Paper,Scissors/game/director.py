@@ -15,18 +15,18 @@ class Director:
     
     def ask_user_input(self):
         """ Ask the user choose one: Rock, Paper or Scissors"""
-        r_p_s=input("Rock, Paper or Scissors?: ")
+        r_p_s=input("Rock, Paper or Scissors?: ").lower()
         self.identification_player=r_p_s
         self.choice=self.randome.random_rps()
 
     def rock_paper_sissor(self):
         """ Check who is winning"""   
 
-        if self.identification_player== "Scissors" and self.choice == "Rock":
+        if self.identification_player== "scissors" and self.choice == "rock":
             self.lifes -= 1
-        elif self.identification_player== "Rock" and self.choice == "Paper":
+        elif self.identification_player== "rock" and self.choice == "paper":
             self.lifes -= 1
-        elif self.identification_player== "Paper" and self.choice == "Scissors":
+        elif self.identification_player== "paper" and self.choice == "scissors":
             self.lifes -= 1
 
     def is_alive(self):
