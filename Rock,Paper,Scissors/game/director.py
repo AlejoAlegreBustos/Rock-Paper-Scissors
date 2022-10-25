@@ -38,9 +38,11 @@ class Director:
 
     def show_outputs(self):
             """Show the outputs """
+            print("")
             print(f"You choose {self.identification_player}")
             print(f"The machine choose {self.choice}")
             print(f"Your lifes are {self.lifes}")
+            print("")
 
         
     def start_game(self):
