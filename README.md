@@ -5,7 +5,7 @@ Rock-Paper-Scissors is the hands game that all people played in childhood
 The folder organizacion is the following
 
 folder
-  main.py
+|_ main.py
   folder_game
-    director.py
+  |_director.py
     actor.py
