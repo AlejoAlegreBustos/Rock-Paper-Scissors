@@ -6,6 +6,6 @@ The folder organizacion is the following
 
 folder
 |_ main.py
-  folder_game
+|_folder_game
   |_director.py
-    actor.py
+  |_actor.py
