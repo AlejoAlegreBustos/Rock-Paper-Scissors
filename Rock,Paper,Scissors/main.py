@@ -1,4 +1,4 @@
-from director import Director
+from game.director import Director
 
 direct=Director()
 direct.start_game()

@@ -1,5 +1,5 @@
 
-from actor import Actor
+from game.actor import Actor
 
 
 class Director:
